@@ -16,7 +16,7 @@ scaler = MinMaxScaler()
 df[['Temperature', 'Wind Speed']] = scaler.fit_transform(df[['Temperature', 'Wind Speed']])
 
 # Step 4: Save the preprocessed data to a new CSV file
-processed_data_file = "processed_dataa.csv"
+processed_data_file = "processed_data.csv"
 df.to_csv(processed_data_file, index=False)
 
 # Print the first few rows of the preprocessed data
