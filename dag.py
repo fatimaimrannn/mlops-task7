@@ -5,7 +5,7 @@ import subprocess
 
 # Function to fetch weather data
 def fetch_weather_data():
-    subprocess.run(["python", "fetch_weather.py"])
+    subprocess.run(["pythonn", "fetch_weather.py"])
 
 # Function to preprocess the data
 def preprocess_data():
