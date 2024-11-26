@@ -3,7 +3,7 @@ import csv
 from datetime import datetime
 
 # Replace with your new OpenWeatherMap API key
-api_key = "apikey"
+api_key = "api-key"
 city = "London"  # Replace with the desired city
 url = f"http://api.openweathermap.org/data/2.5/forecast?q={city}&units=metric&cnt=5&appid={api_key}"
 
